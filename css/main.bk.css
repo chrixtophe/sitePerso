@@ -1,0 +1,101 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font: 16px/1.5 'Open Sans', sans-serif;
+  text-align: center;
+  color: #555;
+  background: #ddd;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 30px 0 40px;
+}
+
+.title span {
+  display: block;
+  margin: 0 0 15px;
+  font-size: 30px;
+}
+
+.example {
+  padding: 35px 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
+
+pre {
+  margin: 20px 0;
+  font-size: 13px;
+  text-align: left;
+  color: #579;
+  border: 1px dashed #aaa;
+  background: #eee;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner{
+  border: 0;
+  padding: 0;
+}
+
+button {
+  appearance: none;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  background: #555;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 200px;
+  background: #fff;
+  box-shadow: 0 0 0 1000em rgba(0,0,0,.5);
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.prevent {
+  pointer-events: none;
+}
+
+.prevent .modal {
+  pointer-events: auto;
+}
