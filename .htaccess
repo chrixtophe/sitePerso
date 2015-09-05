@@ -217,6 +217,10 @@ AddDefaultCharset utf-8
     RewriteBase /
 </IfModule>
 
+Redirect permanent /contact.php http://christophebaldy.net
+Redirect permanent /_www/acces.html http://christophebaldy.net
+Redirect permanent /competences.php?PHPSESSID=58a51dac8591a24a4b960f38c382c590 http://christophebaldy.net
+
 # ------------------------------------------------------------------------------
 # | Suppressing / Forcing the "www." at the beginning of URLs                  |
 # ------------------------------------------------------------------------------
