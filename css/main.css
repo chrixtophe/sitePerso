@@ -10,7 +10,9 @@ body {
     background-image: url('../img/background.jpg');
     background-repeat: repeat;
 }
-
+.container {
+    margin-top: 50px;
+}
 .social {
     display: block;
     padding: 0px;
