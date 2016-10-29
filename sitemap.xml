@@ -6,6 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>http://www.christophebaldy.net</loc>
-  <changefreq>monthly</changefreq>
+  <changefreq>yearly</changefreq>
 </url>
 </urlset>
