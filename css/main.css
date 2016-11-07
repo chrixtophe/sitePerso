@@ -19,6 +19,7 @@ body {
 }
 .social li {
     display: inline-block;
+    width: 45px;
 }
 
 
