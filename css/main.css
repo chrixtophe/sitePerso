@@ -1,25 +1,24 @@
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 body {
     font: 16px/1.5 'Open Sans', sans-serif;
     text-align: center;
     color: #555;
-    background-image: url('../img/background.jpg');
-    background-repeat: repeat;
+    background: url('../img/background.jpg') repeat top left;
 }
+
 .container {
-    margin-top: 50px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 80px 50px 50px;
 }
+
 .social {
-    display: block;
-    padding: 0px;
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
+
 .social li {
-    display: inline-block;
-    width: 45px;
+    flex: 1;
 }
 
 
